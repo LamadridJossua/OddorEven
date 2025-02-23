@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Text Example</title>
+</head>
+<body>
+  <!-- Paragraph to change -->
+  <p id="myParagraph">Goodmorning Sir</p>
+
+  <!-- Button to trigger the change -->
+  <button onclick="changeText()">Change Text</button>
+
+  <!-- JavaScript function to change the text -->
+  <script>
+    function changeText() {
+      document.getElementById('myParagraph').innerHTML = 'Hello Sir';
+    }
+  </script>
+</body>
+</html>
